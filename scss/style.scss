@@ -170,11 +170,12 @@ h6 {
   line-height: 19px;
   border-radius: 50px;
   transition: all 0.3s;
-  color: var(--color-red);
+  color: var(--color-dark);
   background-color: #fff;
-  border: 2px solid var(--color-red);
+  border: 2px solid var(--color-dark);
   &:hover {
     color: #fff;
+    border: 2px solid var(--color-red);
     background-color: var(--color-red);
     box-shadow: 0 26px 54px rgba(245, 56, 56, 0.35);
   }
@@ -183,6 +184,13 @@ h6 {
 .nav__list {
   display: flex;
   align-items: center;
+}
+
+.nav__item {
+  transition: all 0.3s;
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 
 .nav__item:not(:last-child) {
@@ -194,6 +202,10 @@ h6 {
   font-size: 16px;
   line-height: 19px;
   color: var(--color-grey);
+  transition: all 0.3s;
+  &:hover {
+    color: var(--color-red);
+  }
 }
 
 .hello__top {
@@ -396,12 +408,16 @@ h6 {
 
 .plan__col {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 330px;
   height: 760px;
-  border: 2px solid #dddddd;
   border-radius: 10px;
+  align-items: center;
+  transition: all 0.3s;
+  flex-direction: column;
+  border: 2px solid #ddd;
+  &:hover {
+    border: 2px solid var(--color-red);
+  }
 }
 
 .plan__col-img {
@@ -706,15 +722,16 @@ h6 {
   display: flex;
   margin-right: 20px;
   border-radius: 50%;
-  color: var(--color-red);
-  border: 2px solid var(--color-red);
   align-items: center;
-  justify-content: center;
   transition: all 0.3s;
+  justify-content: center;
+  color: var(--color-red);
   background-color: #fff;
+  border: 2px solid var(--color-red);
   &:hover {
-    background-color: var(--color-red);
     color: #fff;
+    transform: rotate(360deg);
+    background-color: var(--color-red);
   }
 }
 
