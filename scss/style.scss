@@ -165,14 +165,14 @@ h6 {
 .nav__btn {
   width: 150px;
   height: 45px;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   border-radius: 50px;
   transition: all 0.3s;
   color: var(--color-dark);
   background-color: #fff;
-  border: 2px solid var(--color-dark);
+  border: 2px solid var(--color-grey);
   &:hover {
     color: #fff;
     border: 2px solid var(--color-red);
@@ -707,7 +707,7 @@ h6 {
   transition: all 0.3s;
   background-color: #dde0e4;
   &:hover {
-    transform: scale(1.5);
+    transform: scale(1.9);
   }
 }
 
