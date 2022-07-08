@@ -91,10 +91,16 @@ h6 {
 .hello__btn {
   width: 250px;
   height: 60px;
-  color: #fff;
   border-radius: 10px;
-  background-color: var(--color-red);
-  box-shadow: 0 26px 54px rgba(245, 56, 56, 0.35);
+  transition: all 0.3s;
+  color: var(--color-red);
+  background-color: #fff;
+  border: 2px solid var(--color-red);
+  &:hover {
+    color: #fff;
+    background-color: var(--color-red);
+    box-shadow: 0 26px 54px rgba(245, 56, 56, 0.35);
+  }
 }
 
 .grid {
@@ -151,10 +157,27 @@ h6 {
   margin-right: 150px;
 }
 
+.header__btn {
+  display: flex;
+  align-items: center;
+}
+
 .nav__btn {
+  width: 150px;
+  height: 45px;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  color: var(--color-red);
+  background-color: #fff;
+  border: 2px solid var(--color-red);
+  &:hover {
+    color: #fff;
+    background-color: var(--color-red);
+    box-shadow: 0 26px 54px rgba(245, 56, 56, 0.35);
+  }
 }
 
 .nav__list {
@@ -452,8 +475,15 @@ h6 {
   font-size: 16px;
   line-height: 19px;
   border-radius: 50px;
-  border: 2px solid var(--color-red);
+  transition: all 0.3s;
   color: var(--color-red);
+  background-color: #fff;
+  border: 2px solid var(--color-red);
+  &:hover {
+    color: #fff;
+    background-color: var(--color-red);
+    box-shadow: 0 26px 54px rgba(245, 56, 56, 0.35);
+  }
 }
 
 .plan__col-text-1 {
