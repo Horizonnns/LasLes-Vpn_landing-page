@@ -928,3 +928,32 @@ h6 {
   background-color: #f8f8f8;
   padding: 180px 150px 100px 150px;
 }
+
+.footer__col {
+  width: 340px;
+  height: 241px;
+}
+
+.footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer__descr {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  color: var(--color-grey);
+}
+
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
