@@ -85,12 +85,13 @@ h6 {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  color: var(--color-red);
+  color: var(--color-grey);
   background-color: #fff;
-  border: 2px solid var(--color-red);
+  border: 2px solid var(--color-grey);
 }
 .hello__btn:hover {
   color: #fff;
+  border: 2px solid var(--color-red);
   background-color: var(--color-red);
   -webkit-box-shadow: 0 26px 54px rgba(245, 56, 56, 0.35);
           box-shadow: 0 26px 54px rgba(245, 56, 56, 0.35);
@@ -571,13 +572,14 @@ h6 {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  color: var(--color-red);
+  color: var(--color-grey);
   background-color: #fff;
-  border: 2px solid var(--color-red);
+  border: 2px solid var(--color-grey);
 }
 .plan__col-btn:hover {
   color: #fff;
   background-color: var(--color-red);
+  border: 2px solid var(--color-red);
   -webkit-box-shadow: 0 26px 54px rgba(245, 56, 56, 0.35);
           box-shadow: 0 26px 54px rgba(245, 56, 56, 0.35);
 }
@@ -693,15 +695,16 @@ h6 {
   height: 230px;
   padding: 30px;
   border-radius: 10px;
-  border: 2px solid var(--color-red);
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  border: 2px solid #ddd;
 }
 .card-slider__card:hover {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
+  border: 2px solid var(--color-red);
   -webkit-box-shadow: 0 71px 114px rgba(13, 16, 37, 0.06);
           box-shadow: 0 71px 114px rgba(13, 16, 37, 0.06);
 }
@@ -802,6 +805,9 @@ h6 {
   height: 15px;
   border: none;
   border-radius: 50px;
+  background-color: var(--color-grey);
+}
+.card__btn-l-red:hover {
   background-color: var(--color-red);
 }
 
@@ -831,6 +837,7 @@ h6 {
   -webkit-transform: scale(1.9);
       -ms-transform: scale(1.9);
           transform: scale(1.9);
+  background-color: var(--color-red);
 }
 
 .card__btn-right {
@@ -859,15 +866,16 @@ h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: var(--color-red);
+  color: var(--color-grey);
   background-color: #fff;
-  border: 2px solid var(--color-red);
+  border: 2px solid var(--color-grey);
 }
 .card__btn-r:hover {
   color: #fff;
   -webkit-transform: rotate(360deg);
       -ms-transform: rotate(360deg);
           transform: rotate(360deg);
+  border: 2px solid var(--color-red);
   background-color: var(--color-red);
 }
 
