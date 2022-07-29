@@ -93,11 +93,12 @@ h6 {
   height: 60px;
   border-radius: 10px;
   transition: all 0.3s;
-  color: var(--color-red);
+  color: var(--color-grey);
   background-color: #fff;
-  border: 2px solid var(--color-red);
+  border: 2px solid var(--color-grey);
   &:hover {
     color: #fff;
+    border: 2px solid var(--color-red);
     background-color: var(--color-red);
     box-shadow: 0 26px 54px rgba(245, 56, 56, 0.35);
   }
@@ -492,12 +493,13 @@ h6 {
   line-height: 19px;
   border-radius: 50px;
   transition: all 0.3s;
-  color: var(--color-red);
+  color: var(--color-grey);
   background-color: #fff;
-  border: 2px solid var(--color-red);
+  border: 2px solid var(--color-grey);
   &:hover {
     color: #fff;
     background-color: var(--color-red);
+    border: 2px solid var(--color-red);
     box-shadow: 0 26px 54px rgba(245, 56, 56, 0.35);
   }
 }
@@ -606,10 +608,11 @@ h6 {
   height: 230px;
   padding: 30px;
   border-radius: 10px;
-  border: 2px solid var(--color-red);
   transition: all 0.3s;
+  border: 2px solid #ddd;
   &:hover {
     transform: scale(1.1);
+    border: 2px solid var(--color-red);
     box-shadow: 0 71px 114px rgba(13, 16, 37, 0.06);
   }
 }
@@ -688,7 +691,10 @@ h6 {
   height: 15px;
   border: none;
   border-radius: 50px;
-  background-color: var(--color-red);
+  background-color: var(--color-grey);
+  &:hover {
+    background-color: var(--color-red);
+  }
 }
 
 .card__btn-l-red {
@@ -708,6 +714,7 @@ h6 {
   background-color: #dde0e4;
   &:hover {
     transform: scale(1.9);
+    background-color: var(--color-red);
   }
 }
 
@@ -725,12 +732,13 @@ h6 {
   align-items: center;
   transition: all 0.3s;
   justify-content: center;
-  color: var(--color-red);
+  color: var(--color-grey);
   background-color: #fff;
-  border: 2px solid var(--color-red);
+  border: 2px solid var(--color-grey);
   &:hover {
     color: #fff;
     transform: rotate(360deg);
+    border: 2px solid var(--color-red);
     background-color: var(--color-red);
   }
 }
