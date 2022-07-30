@@ -828,11 +828,22 @@ h6 {
   margin-left: -20px;
 }
 
+.footer__item svg {
+  transition: all 0.2s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
 .footer__author {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   color: #afb5c0;
+}
+
+.footer__author span {
+  font-weight: 500;
 }
 
 .footer__items {
