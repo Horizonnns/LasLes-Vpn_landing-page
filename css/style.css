@@ -980,11 +980,26 @@ h6 {
   margin-left: -20px;
 }
 
+.footer__item svg {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.footer__item svg:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .footer__author {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   color: #afb5c0;
+}
+
+.footer__author span {
+  font-weight: 500;
 }
 
 .footer__items {
