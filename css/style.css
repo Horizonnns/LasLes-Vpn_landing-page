@@ -953,11 +953,15 @@ h6 {
 }
 
 .footer__descr {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 30px;
   color: var(--color-grey);
+}
+
+.footer__descr span {
+  font-weight: 500;
 }
 
 .footer__list {
