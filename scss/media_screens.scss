@@ -1,80 +1,53 @@
-@media (max-width: 768px) {
-  .header__search {
-    margin-left: 10px;
+@media (max-width: 992px) {
+  .header__logo {
+    max-width: 160px;
+    margin-right: 35px;
   }
 
-  .main__title {
-    font-size: 60px;
-    line-height: 75px;
+  .nav__link {
+    font-size: 15px;
   }
 
-  .main__descr {
-    font-size: 14px;
-    line-height: 25px;
+  .nav__btn {
+    width: 135px;
+    height: 35px;
+    font-size: 15px;
   }
 
-  .grid {
-    grid-template-columns: auto;
-    row-gap: 40px;
+  .header__nav {
+    max-width: 595px;
+    margin-right: 45px;
   }
 
-  :root {
-    --offset: 60px;
+  .header__btn {
+    max-width: 242px;
   }
 
-  .portfolio-item--reverse .portfolio-item__col:first-child {
-    order: 1;
+  .hello__top {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 
-  .portfolio-item--reverse .portfolio-item__col:last-child {
-    order: 2;
+  .hello__col {
+    margin: 0 auto;
+    max-width: 800px;
   }
 
-  .portfolio-item:not(:last-child) {
-    margin-bottom: 60px;
+  .hello__title {
+    font-size: 44px;
   }
 
-  .footer {
-    padding-bottom: 90px;
+  .bottom-text__title {
+    font-size: 22px;
+  }
+
+  .bottom-text__descr {
+    font-size: 18px;
   }
 }
 
-@media (max-width: 576px) {
-  .header__container {
-    flex-direction: column;
-  }
+// @media (max-width: 768px) {
+// }
 
-  .header__right {
-    width: 100%;
-    overflow-x: auto;
-    overflow-y: hidden;
-    margin-top: 30px;
-    padding-bottom: 10px;
-  }
-
-  .main__title {
-    font-size: 40px;
-    line-height: 54px;
-  }
-
-  .main {
-    height: 600px;
-    padding-top: 200px;
-    min-height: auto;
-  }
-
-  .about__item:not(:last-child) {
-    margin-bottom: 30px;
-  }
-
-  .about__title {
-    font-size: 30px;
-    line-height: 44px;
-    margin-bottom: 30px;
-  }
-
-  .quote__text {
-    font-size: 26px;
-    line-height: 40px;
-  }
-}
+// @media (max-width: 576px) {
+// }
