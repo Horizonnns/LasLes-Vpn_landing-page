@@ -56,8 +56,121 @@
   }
 }
 
-// @media (max-width: 768px) {
-// }
+@media (max-width: 768px) {
+  .hello__col {
+    text-align: center;
+  }
+  .hello__title {
+    text-align: center;
+  }
+  .hello__descr {
+    text-align: center;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about__img {
+    margin: 0 auto;
+  }
+  .about__info {
+    width: 650px;
+    margin: 0 auto;
+  }
+  .about__title {
+    text-align: center;
+  }
+  .about__descr {
+    text-align: center;
+  }
+  .about__list {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .about-list__completed img {
+    margin-right: 20px;
+  }
+  .about__item {
+    letter-spacing: 1px;
+  }
+
+  .plans {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 41px;
+  }
+
+  .card__subscribe {
+    display: flex;
+    padding: 15px 70px;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .subscribe__info {
+    width: 560px;
+    height: 105px;
+    text-align: center;
+  }
+  .subscribe__title {
+    margin-bottom: 90px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hello__title {
+    font-size: 38px;
+  }
+
+  .bottom-item__img {
+    margin-right: 10px;
+  }
+  .bottom-text__title {
+    font-size: 18px;
+  }
+  .bottom-text__descr {
+    font-size: 14px;
+  }
+
+  .about__img {
+    max-width: 390px;
+  }
+  .about__info {
+    width: 430px;
+  }
+
+  .global__info {
+    width: 440px;
+  }
+
+  .card__info {
+    width: 440px;
+  }
+
+  .subscribe__info {
+    width: 440px;
+  }
+
+  .plans {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 320px) {
+  /* Custom, iPhone Retins */
+}
 
 // @media (max-width: 576px) {
+//   .about__info {
+//     width: 500px;
+//     margin: 0 auto;
+//   }
+
+//   .plans {
+//     display: grid;
+//     justify-items: center;
+//     grid-template-columns: repeat(1, 1fr);
+//   }
 // }
