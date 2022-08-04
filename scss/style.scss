@@ -405,6 +405,7 @@ body {
   display: flex;
   width: 330px;
   height: 760px;
+  margin: 0 10px;
   border-radius: 10px;
   align-items: center;
   transition: all 0.3s;
@@ -730,7 +731,7 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  padding: 58px 70px;
+  padding: 58px;
   align-items: center;
   border-radius: 10px;
   background-color: #fff;
