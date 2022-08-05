@@ -100,6 +100,10 @@
     justify-items: center;
     grid-template-columns: repeat(1, 1fr);
   }
+  .plan__col {
+    min-width: 400px;
+    margin-bottom: 70px;
+  }
 
   .card__subscribe {
     display: flex;
@@ -161,6 +165,10 @@
     margin-bottom: 80px;
   }
 
+  .plan__col {
+    min-width: 290px;
+    margin-bottom: 50px;
+  }
   .plan__title {
     margin-bottom: 10px;
   }
@@ -239,6 +247,7 @@
   }
   .hello-bottom__list {
     min-width: 200px;
+    margin-bottom: 70px;
   }
 
   .bottom-item__img {
@@ -290,6 +299,9 @@
     margin-bottom: 7px;
   }
 
+  .plans {
+    margin-bottom: 30px;
+  }
   .plan__info {
     padding-top: 40px;
   }
@@ -305,10 +317,11 @@
   }
   .plan__col {
     min-width: 270px;
+    margin-bottom: 20px;
   }
 
   .global__info {
-    height: 140px;
+    height: 120px;
     min-width: 200px;
     margin-bottom: 5px;
   }
@@ -352,11 +365,11 @@
   .subscribe__title {
     font-size: 25px;
     line-height: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
   }
   .subscribe__descr {
     font-size: 13px;
     line-height: 16px;
-    margin-bottom: 7px;
+    margin-bottom: 20px;
   }
 }
