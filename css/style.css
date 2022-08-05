@@ -322,16 +322,11 @@ body {
 
 .bottom-item__img {
   width: 55px;
-  height: 55px;
   margin-right: 36px;
 }
 
 .bottom-item__img img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  max-width: 100%;
 }
 
 .bottom-text {
@@ -384,7 +379,7 @@ body {
 }
 
 .about__info {
-  width: 428px;
+  max-width: 428px;
   height: 365px;
 }
 
@@ -471,7 +466,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 330px;
+  max-width: 330px;
   height: 760px;
   margin: 0 10px;
   border-radius: 10px;
@@ -596,7 +591,7 @@ body {
 }
 
 .global__info {
-  width: 555px;
+  max-width: 555px;
   height: 180px;
   margin: 0 auto;
   margin-bottom: 156px;
@@ -604,7 +599,7 @@ body {
 }
 
 .global__title {
-  width: 384px;
+  max-width: 384px;
   margin: 0 auto;
   font-weight: 500;
   font-size: 35px;
@@ -651,7 +646,7 @@ body {
 }
 
 .card__info {
-  width: 555px;
+  max-width: 555px;
   height: 180px;
   margin: 0 auto;
   text-align: center;
@@ -659,7 +654,7 @@ body {
 }
 
 .card__title {
-  width: 448px;
+  max-width: 448px;
   margin: 0 auto;
   font-weight: 500;
   font-size: 35px;
@@ -865,7 +860,6 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  padding: 58px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -879,8 +873,8 @@ body {
 }
 
 .subscribe__info {
-  width: 371px;
-  height: 116px;
+  max-width: 371px;
+  min-height: 116px;
 }
 
 .subscribe__title {
