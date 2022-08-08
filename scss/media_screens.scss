@@ -54,6 +54,14 @@
     font-size: 44px;
   }
 
+  .user-text__title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .user-text__descr {
+    font-size: 18px;
+  }
+
   .about {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -106,7 +114,7 @@
   }
   .user-text__title {
     font-size: 18px;
-    line-height: 10px;
+    line-height: 15px;
   }
   .user-text__descr {
     font-size: 16px;
