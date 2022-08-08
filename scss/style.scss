@@ -403,9 +403,9 @@ body {
   align-items: center;
   transition: all 0.3s;
   flex-direction: column;
-  border: 2px solid #ddd;
+  border: 2px solid var(--color-lsoft);
   &:hover {
-    border: 2px solid var(--color-red);
+    border: 2px solid var(--color-dsoft);
   }
 }
 
@@ -481,14 +481,14 @@ body {
   line-height: 19px;
   border-radius: 50px;
   transition: all 0.3s;
-  color: var(--color-grey);
-  background-color: #fff;
-  border: 2px solid var(--color-grey);
+  color: #fff;
+  background-color: var(--color-lsoft);
+  border: 2px solid var(--color-dsoft);
   &:hover {
-    color: #fff;
-    background-color: var(--color-red);
-    border: 2px solid var(--color-red);
-    box-shadow: 0 26px 54px rgba(245, 56, 56, 0.35);
+    color: var(--color-dsoft);
+    border: 2px solid var(--color-lsoft);
+    background-color: var(--color-lsoft);
+    box-shadow: 0 26px 54px var(--color-lsoft);
   }
 }
 
