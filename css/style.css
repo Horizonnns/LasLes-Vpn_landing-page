@@ -271,60 +271,62 @@ body {
      object-fit: cover;
 }
 
-.hello-bottom__list {
+.hello__users {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 200px;
   margin: 0 auto;
   max-width: 1140px;
-  height: 200px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   border-radius: 10px;
-  margin-bottom: 96px;
-  background-color: #aaa;
-  -webkit-box-shadow: 0px 42px 114px rgba(13, 16, 37, 0.06);
-          box-shadow: 0px 42px 114px rgba(13, 16, 37, 0.06);
+  margin-bottom: 100px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 6px 19px -6px rgba(192, 192, 192, 0.68);
+          box-shadow: 0 6px 19px -6px rgba(192, 192, 192, 0.68);
 }
 
-.bottom-item {
-  width: 366px;
-  height: 125px;
+.users-group {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-right: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.users-box {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 20px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.bottom-item:not(:first-child) {
-  border-left: 1px solid #eeeff2;
+.users-img {
+  width: 55px;
+  margin: 0 40px;
 }
 
-.bottom-text__title {
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 30px;
-  color: var(--color-dark);
+.users-img img {
+  max-width: 55px;
 }
 
-.bottom-text__descr {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
-  color: var(--color-grey);
-}
-
-.bottom-item__img {
-  margin-right: 36px;
-}
-
-.bottom-text {
+.users-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -335,6 +337,20 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.user-text__title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: var(--color-dark);
+}
+
+.user-text__descr {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--color-grey);
 }
 
 .bg__gradient {
