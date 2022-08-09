@@ -52,6 +52,13 @@
 
   .hello__title {
     font-size: 44px;
+    text-align: center;
+  }
+  .hello__descr {
+    text-align: center;
+  }
+  .hello__btn {
+    margin-left: 270px;
   }
 
   .user-text__title {
@@ -98,6 +105,9 @@
   }
   .hello__descr {
     text-align: center;
+  }
+  .hello__btn {
+    margin-left: 0;
   }
 
   .hello__users {
