@@ -81,6 +81,35 @@
   .plan__col {
     min-width: 230px;
   }
+  .card__subscribe {
+    min-width: 100px;
+    min-height: 233px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .subscribe__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 135px;
+    padding: 0 5px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .subscribe__title {
+    min-width: 360px;
+  }
+  .subscribe__descr {
+    min-width: 300px;
+  }
+  .subscribe__info-about {
+    min-width: 130px;
+    margin-right: 0;
+    text-align: left;
+  }
 }
 @media (max-width: 768px) {
   .hello__col {
@@ -148,7 +177,8 @@
     margin-bottom: 70px;
   }
   .card__subscribe {
-    min-width: 300px;
+    min-width: 100px;
+    min-height: 233px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -161,12 +191,11 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    min-height: 100px;
-    min-width: 300px;
+    min-width: 200px;
   }
   .subscribe__info-about {
-    min-width: 300px;
     margin-right: 0;
+    text-align: center;
   }
   .subscribe__title {
     margin-bottom: 10px;
@@ -174,11 +203,21 @@
   .slide-container {
     margin-bottom: 80px;
   }
+  .slide-content {
+    margin: 0 10px;
+  }
+  .swiper-navBtn {
+    display: none;
+  }
+  .descr {
+    height: 130px;
+  }
 }
 @media (max-width: 480px) {
   .hello__title {
-    font-size: 35px;
-    line-height: 50px;
+    font-size: 29px;
+    min-width: 298px;
+    line-height: 35px;
     margin-bottom: 10px;
   }
   .hello__descr {
@@ -215,24 +254,35 @@
   .about__info {
     min-width: 300px;
   }
+  .about__title {
+    font-size: 29px;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
   .about__descr {
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 80px;
   }
   .plans {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+  }
+  .plan__info {
+    padding-top: 35px;
   }
   .plan__col {
     min-width: 290px;
     margin-bottom: 50px;
   }
   .plan__title {
+    font-size: 29px;
+    line-height: 35px;
     margin-bottom: 10px;
   }
   .plan__descr {
     font-size: 14px;
     line-height: 20px;
+    margin-bottom: 40px;
   }
   .col-title {
     font-size: 26px;
@@ -244,9 +294,13 @@
     font-size: 26px;
   }
   .global__info {
+    height: 100px;
     min-width: 300px;
+    margin-bottom: 50px;
   }
   .global__title {
+    font-size: 29px;
+    line-height: 35px;
     min-width: 300px;
     margin-bottom: 10px;
   }
@@ -255,10 +309,13 @@
     line-height: 20px;
   }
   .card__info {
+    height: 120px;
     min-width: 300px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
   }
   .card__title {
+    font-size: 29px;
+    line-height: 35px;
     min-width: 300px;
     margin-bottom: 10px;
   }
@@ -270,7 +327,8 @@
     margin-bottom: 60px;
   }
   .card__subscribe {
-    min-width: 300px;
+    min-width: 100px;
+    min-height: 233px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -283,21 +341,28 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    min-height: 100px;
-    min-width: 300px;
+    min-width: 200px;
   }
   .subscribe__info-about {
-    min-width: 300px;
     margin-right: 0;
+    text-align: center;
   }
   .subscribe__title {
-    line-height: 50px;
+    font-size: 29px;
+    line-height: 35px;
     margin-bottom: 10px;
+    min-width: 300px;
+  }
+  .subscribe__descr {
+    font-size: 14px;
   }
   .plans {
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(1, 1fr);
+  }
+  .descr {
+    height: 90px;
   }
 }
 @media (max-width: 320px) {
@@ -396,7 +461,8 @@
     margin-bottom: 7px;
   }
   .card__subscribe {
-    min-width: 300px;
+    min-width: 100px;
+    min-height: 233px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -409,12 +475,14 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    min-height: 100px;
-    min-width: 300px;
+    min-width: 200px;
   }
   .subscribe__info-about {
-    min-width: 300px;
     margin-right: 0;
+    text-align: center;
+  }
+  .subscribe__title {
+    min-width: 300px;
   }
   .card__info {
     height: 100px;
@@ -452,5 +520,8 @@
     font-size: 13px;
     line-height: 16px;
     margin-bottom: 20px;
+  }
+  .descr {
+    height: 120px;
   }
 }
