@@ -1,9 +1,19 @@
 @media (max-width: 1200px) {
   .header__logo {
-    margin-right: 100px;
+    max-width: 160px;
+    margin-right: 35px;
   }
   .header__nav {
-    margin-right: 140px;
+    min-width: 595px;
+    margin-right: 45px;
+  }
+  .header__btn {
+    max-width: 242px;
+  }
+  .nav__btn {
+    width: 135px;
+    height: 35px;
+    font-size: 15px;
   }
 
   .plan__col {
@@ -27,28 +37,20 @@
     max-width: 160px;
     margin-right: 35px;
   }
-
-  .hello__users {
-    height: 180px;
+  .header__nav {
+    min-width: 595px;
+    margin-right: 45px;
   }
-
-  .nav__link {
-    font-size: 15px;
+  .header__btn {
+    max-width: 242px;
   }
-
   .nav__btn {
     width: 135px;
     height: 35px;
     font-size: 15px;
   }
-
-  .header__nav {
-    max-width: 595px;
-    margin-right: 45px;
-  }
-
-  .header__btn {
-    max-width: 242px;
+  .nav__list {
+    margin-right: 30px;
   }
 
   .hello__top {
@@ -78,6 +80,9 @@
   }
   .user-text__descr {
     font-size: 18px;
+  }
+  .hello__users {
+    height: 180px;
   }
 
   .about {
@@ -128,6 +133,53 @@
     margin-right: 0;
     text-align: left;
   }
+}
+
+@media (max-width: 920px) {
+  .nav__list {
+    top: 40px;
+    left: 100%;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    transition: all 0.3s;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.5);
+    &:active {
+      left: 0%;
+    }
+  }
+  .hamb {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+  }
+  .bar {
+    width: 40px;
+    height: 3px;
+    display: block;
+    margin: 5px auto;
+    transition: all 0.3s;
+    background-color: #101010;
+  }
+
+  // .header__logo {
+  //   max-width: 160px;
+  //   margin-right: 35px;
+  // }
+  // .header__nav {
+  //   max-width: 595px;
+  //   margin-right: 45px;
+  // }
+  // .header__btn {
+  //   max-width: 242px;
+  // }
+  // .nav__btn {
+  //   width: 135px;
+  //   height: 35px;
+  //   font-size: 15px;
+  // }
 }
 
 @media (max-width: 768px) {
@@ -241,6 +293,9 @@
   .footer__col {
     margin: 0 auto;
     margin-bottom: 50px;
+  }
+  .footer__list {
+    justify-content: space-around;
   }
   .footer__items {
     min-width: 450px;
@@ -409,6 +464,9 @@
   .footer__col {
     min-width: 300px;
     margin-bottom: 80px;
+  }
+  .footer__list {
+    justify-content: space-between;
   }
   .footer__items {
     margin: 0 auto;
