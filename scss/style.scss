@@ -764,25 +764,21 @@ body {
   background-color: #f8f8f8;
   padding: 180px 0 100px;
 }
-
 .footer__cols {
   display: flex;
-  width: 1150px;
+  min-width: 1150px;
   height: 280px;
   margin: 0 auto;
 }
-
 .footer__col {
-  width: 340px;
+  min-width: 340px;
   height: 241px;
 }
-
 .footer__logo {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
 }
-
 .footer__descr {
   font-weight: 400;
   font-size: 16px;
@@ -790,41 +786,35 @@ body {
   margin-bottom: 30px;
   color: var(--color-grey);
 }
-
 .footer__descr span {
   font-weight: 500;
 }
-
 .footer__list {
   display: flex;
   margin-left: -20px;
 }
-
 .footer__item svg {
   transition: all 0.2s;
   &:hover {
     transform: scale(1.1);
   }
 }
-
 .footer__author {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   color: #afb5c0;
 }
-
 .footer__author span {
   font-weight: 500;
 }
-
 .footer__items {
-  width: 570px;
+  min-width: 570px;
   height: 280px;
   display: flex;
   margin-left: 230px;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .footer__about {
