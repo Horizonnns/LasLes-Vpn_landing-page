@@ -927,13 +927,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1150px;
+  min-width: 1150px;
   height: 280px;
   margin: 0 auto;
 }
 
 .footer__col {
-  width: 340px;
+  min-width: 340px;
   height: 241px;
 }
 
@@ -989,7 +989,7 @@ body {
 }
 
 .footer__items {
-  width: 570px;
+  min-width: 570px;
   height: 280px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -998,8 +998,9 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .footer__about {
