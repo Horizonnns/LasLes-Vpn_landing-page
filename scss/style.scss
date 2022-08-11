@@ -192,15 +192,25 @@ body {
   line-height: 19px;
   border-radius: 50px;
   transition: all 0.3s;
-  color: var(--color-dark);
-  background-color: #fff;
-  border: 2px solid var(--color-grey);
+  color: #fff;
+  background-color: var(--color-lsoft);
+  border: 2px solid var(--color-dsoft);
   &:hover {
-    color: #fff;
-    border: 2px solid var(--color-red);
-    background-color: var(--color-red);
-    box-shadow: 0 26px 54px rgba(245, 56, 56, 0.35);
+    color: var(--color-dsoft);
+    border: 2px solid var(--color-lsoft);
+    background-color: var(--color-lsoft);
+    box-shadow: 0 26px 54px var(--color-lsoft);
   }
+
+  // color: var(--color-dark);
+  // background-color: #fff;
+  // border: 2px solid var(--color-grey);
+  // &:hover {
+  //   color: #fff;
+  //   border: 2px solid var(--color-red);
+  //   background-color: var(--color-red);
+  //   box-shadow: 0 26px 54px rgba(245, 56, 56, 0.35);
+  // }
 }
 
 .hello__top {
