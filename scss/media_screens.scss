@@ -147,8 +147,9 @@
     padding-top: 10%;
     text-align: center;
     flex-direction: column;
-    transition: all 0.3s ease;
+    justify-content: center;
     background-color: #fff;
+    transition: all 0.3s ease;
   }
   .nav__list.active {
     left: 0;
@@ -163,6 +164,7 @@
   .hamb {
     display: flex;
     cursor: pointer;
+    position: fixed;
     flex-direction: column;
   }
   .bar {
@@ -309,9 +311,9 @@
 @media (max-width: 480px) {
   .hamb {
     top: 76px;
-    right: 20px;
     zoom: 0.7;
-    position: absolute;
+    z-index: 2;
+    right: 20px;
     margin-bottom: 20px;
   }
   .bar {
@@ -333,7 +335,7 @@
     min-width: 200px;
   }
   .nav__list {
-    min-width: 320px;
+    min-width: 490px;
   }
   .nav__btn {
     width: 100px;
@@ -519,10 +521,10 @@
 
 @media (max-width: 320px) {
   .hamb {
-    top: 81px;
-    right: 20px;
     zoom: 0.7;
-    position: absolute;
+    top: 81px;
+    z-index: 2;
+    right: 20px;
     margin-bottom: 20px;
   }
   .bar {
