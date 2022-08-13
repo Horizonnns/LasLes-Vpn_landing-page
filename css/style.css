@@ -219,7 +219,7 @@ body {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  background-color: #101010;
+  background-color: rgba(0, 0, 0, 0.3882352941);
 }
 
 .nav__btn {
