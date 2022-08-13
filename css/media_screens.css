@@ -540,7 +540,8 @@
     margin-bottom: 10px;
   }
   .header__btn {
-    max-width: 305px;
+    max-width: 270px;
+    margin-left: 35px;
   }
   .nav__btn {
     width: 120px;
