@@ -188,6 +188,21 @@
 }
 
 @media (max-width: 768px) {
+  .hamb {
+    top: 76px;
+    zoom: 0.7;
+    z-index: 2;
+    right: 25px;
+    margin-bottom: 20px;
+  }
+  .header__logo {
+    max-width: 85px;
+  }
+  .header__nav {
+    margin: 0 auto;
+    min-width: 200px;
+  }
+
   .hello__col {
     text-align: center;
   }
@@ -320,7 +335,7 @@
     display: block;
     margin: 5px auto;
     transition: all 0.3s;
-    background-color: #101010;
+    background-color: #00000063;
   }
   .header__container {
     flex-wrap: wrap;
@@ -334,6 +349,7 @@
   .header__nav {
     margin: 0 auto;
     min-width: 200px;
+    margin-right: 20px;
   }
   .nav__list {
     min-width: 490px;
@@ -549,7 +565,7 @@
     display: block;
     margin: 5px auto;
     transition: all 0.3s;
-    background-color: #101010;
+    background-color: #00000063;
   }
   .header__container {
     flex-wrap: wrap;
