@@ -1,4 +1,4 @@
-: The Project name: ##**LasLes-Vpn_landing-page**
+**LasLes-Vpn_landing-page**
 
 ---
 
