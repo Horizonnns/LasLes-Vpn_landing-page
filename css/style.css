@@ -1021,16 +1021,11 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
-  color: var(--color-dark);
   margin-bottom: 20px;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
-}
-.footer__about:hover {
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
+  color: var(--color-dark);
 }
 
 .footer__help {
