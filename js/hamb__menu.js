@@ -1,18 +1,32 @@
-let hamb = document.querySelector('.hamb');
-let navMenu = document.querySelector('.nav__list');
+const hamb = document.querySelector("#hamb");
+const popup = document.querySelector("#popup");
+const menu = document.querySelector("#menu").cloneNode(1);
+const body = document.body;
 
-hamb.addEventListener('click', mobileMenu);
+hamb.addEventListener("click", hambHandler);
 
-function mobileMenu() {
-  hamb.classList.toggle('active');
-  navMenu.classList.toggle('active');
+function hambHandler(e) {
+  e.preventDefault();
+  popup.classList.toggle("open");
+  hamb.classList.toggle("active");
+  body.classList.toggle("noscroll");
+  renderPopup();
 }
 
-const navLink = document.querySelectorAll('.nav__link');
+function renderPopup() {
+  popup.appendChild(menu);
+}
 
-navLink.forEach((n) => n.addEventListener('click', closeMenu));
+// Код для закрытия меню при нажатии на ссылку
 
-function closeMenu() {
-  hamb.classList.remove('active');
-  navMenu.classList.remove('active');
+const links = Array.from(menu.children);
+
+links.forEach((link) => {
+  link.addEventListener("click", closeOnClick);
+});
+
+function closeOnClick() {
+  popup.classList.remove("open");
+  hamb.classList.remove("active");
+  body.classList.remove("noscroll");
 }
