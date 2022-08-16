@@ -440,7 +440,7 @@
 
 @media (max-width: 480px) {
   .header {
-    margin-bottom: 120px;
+    margin-bottom: 90px;
   }
 
   .nav__btn {
@@ -655,15 +655,96 @@
 }
 
 @media (max-width: 470px) {
+  .header__btn-overflow {
+    top: 95px;
+    left: 125px;
+    position: absolute;
+  }
+
   .header__btn {
     display: none;
   }
 
+  .header {
+    margin-bottom: 140px;
+  }
+}
+
+@media (max-width: 430px) {
+  .header__btn-overflow {
+    top: 95px;
+    left: 110px;
+    position: absolute;
+  }
+
+  .header__btn {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .header__btn-overflow {
+    top: 95px;
+    left: 90px;
+    position: absolute;
+  }
+
+  .header__btn {
+    display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .header__btn-overflow {
+    top: 95px;
+    left: 70px;
+    position: absolute;
+  }
+
+  .header__btn {
+    display: none;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .header__btn-overflow {
+    top: 95px;
+    left: 70px;
+    position: absolute;
+  }
+
+  .header__btn {
+    display: none;
+  }
+}
+
+
+@media (max-width: 340px) {
+  .header__btn-overflow {
+    top: 95px;
+    left: 60px;
+    position: absolute;
+  }
+
+  .header__btn {
+    display: none;
+  }
 }
 
 @media (max-width: 320px) {
+  .header__btn-overflow {
+    top: 95px;
+    left: 55px;
+    position: absolute;
+  }
+
+  .header__btn {
+    display: none;
+  }
+
   .header {
-    margin-bottom: 100px;
+    margin-bottom: 140px;
   }
 
   .hello__col {
